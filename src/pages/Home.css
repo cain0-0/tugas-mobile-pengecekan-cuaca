@@ -1,0 +1,73 @@
+.weather-info {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .weather-info img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .weather-info h2, .weather-info p {
+    margin: 10px;
+  }
+  
+  .header-name {
+    font-size: 128x; /* Set the font size for the name */
+    color: gray; /* Set the text color */
+    margin-left: 20px; /* Add margin for spacing to the left */
+    margin-top:8px; /* Optional: Add a little space above */
+    margin-bottom: 4px; /* Add space below the name */
+    display: inline-block; /* Ensure it behaves like an inline element */
+    align-self: center; /* Center it vertically in the toolbar */
+  }
+  
+  .header-title {
+    margin-top: 15px; /* Adjust the value for desired spacing */
+  }
+  
+  .tab-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px; /* Adjust margin as needed */
+  }
+  
+  .tab-icon {
+    font-size: 30px; /* Adjust size to make the icon bigger */
+    margin-bottom: 4px; /* Space between icon and text */
+  }
+  
+  .tab-text {
+    font-size: 16px; /* Adjust size to make the text bigger */
+  }
+  
+  /* TemperatureButtons.css */
+
+.temperature-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+  }
+  
+  .temp-button {
+    background-color: #007BFF; /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .temp-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .temp-button.active {
+    background-color: #0056b3; /* Active button color */
+    font-weight: bold;
+  }
+  
